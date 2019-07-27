@@ -2,9 +2,7 @@
 
 from torchtext.datasets import TranslationDataset, Multi30k
 from torchtext.data import Field,BucketIterator
-
-#  一个分词工具   import spacy
-
+import pickle
 from stanfordcorenlp import StanfordCoreNLP
 from Configs import configs
 
@@ -16,8 +14,8 @@ def get_data():
     def tokenize_en(text):
         return nlp_en.word_tokenize(text)
 
-    nlp_en = StanfordCoreNLP(r'E:\Learnings\NLP\stanford-corenlp-full-2018-10-05', lang='en')
-    nlp_de = StanfordCoreNLP(r'E:\Learnings\NLP\stanford-corenlp-full-2018-10-05', lang='de')
+    nlp_en = StanfordCoreNLP(r'E:\Learnings\NLP\corenlp', lang='en')
+    nlp_de = StanfordCoreNLP(r'E:\Learnings\NLP\corenlp', lang='de')
 
     German = Field(tokenize=tokenize_de,init_token='<sos>',eos_token='<eos>',lower=True)
     English = Field(tokenize=tokenize_en,init_token='<sos>',eos_token='<eos>',lower=True)
