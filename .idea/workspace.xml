@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47553c68-c41c-4ef9-886c-0eee8d9636c0" name="Default Changelist" comment="" />
+    <list default="true" id="47553c68-c41c-4ef9-886c-0eee8d9636c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/seq2seqAtt/configs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seq2seqAtt/excute.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seq2seqAtt/get_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seq2seqAtt/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seq2seqAtt/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seq2seqAtt/utills.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,119 +17,88 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/NLP_tutorials$data.coverage" NAME="data Coverage Results" MODIFIED="1564047512996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seq2seq" />
+    <SUITE FILE_PATH="coverage/NLP_tutorials$data.coverage" NAME="data Coverage Results" MODIFIED="1564196667292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seq2seq" />
+    <SUITE FILE_PATH="coverage/NLP_tutorials$Execute.coverage" NAME="Execute Coverage Results" MODIFIED="1564211050690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seq2seq" />
+    <SUITE FILE_PATH="coverage/NLP_tutorials$Model.coverage" NAME="Model Coverage Results" MODIFIED="1564211240943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seq2seq" />
+    <SUITE FILE_PATH="coverage/NLP_tutorials$Main.coverage" NAME="Main Coverage Results" MODIFIED="1564231652373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seq2seq" />
+    <SUITE FILE_PATH="coverage/NLP_tutorials$Processed_data.coverage" NAME="Processed_data Coverage Results" MODIFIED="1564210867728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seq2seq" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-654217590">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="1" />
-          <entry key="py" value="7" />
+          <entry key="md" value="2" />
+          <entry key="py" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="1" />
-          <entry key="Python" value="7" />
+          <entry key="Markdown" value="2" />
+          <entry key="Python" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="data" value="25" />
-          <entry key="dummy" value="8" />
-          <entry key="md" value="36" />
-          <entry key="py" value="2052" />
+          <entry key="Processed_data" value="42" />
+          <entry key="Python Console" value="567" />
+          <entry key="data" value="92" />
+          <entry key="dummy" value="47" />
+          <entry key="md" value="320" />
+          <entry key="py" value="7771" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="36" />
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="2077" />
+          <entry key="Markdown" value="320" />
+          <entry key="PLAIN_TEXT" value="47" />
+          <entry key="Python" value="8472" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seq2seq/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="28">
-                <caret line="1" selection-start-line="1" selection-end-line="1" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seq2seq/Data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-              <folding>
-                <element signature="e#2#61#0" expanded="true" />
-                <marker date="1564050979750" expanded="true" signature="245:574" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seq2seq/Main.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/seq2seqAtt/get_data.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
               <folding>
-                <element signature="e#0#12#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seq2seq/Configs.py">
+        <entry file="file://$PROJECT_DIR$/seq2seqAtt/configs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="82" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
-              <folding>
-                <marker date="1564050606801" expanded="true" signature="30:35" ph="..." />
-                <marker date="1564050606801" expanded="true" signature="54:59" ph="..." />
-              </folding>
+            <state relative-caret-position="532">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/seq2seq/Encoder.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seq2seq/Processed_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-              <folding>
-                <element signature="e#13#25#0" expanded="true" />
-                <marker date="1564062019337" expanded="true" signature="73:78" ph="..." />
-                <marker date="1564062019337" expanded="true" signature="550:559" ph="..." />
-              </folding>
+            <state relative-caret-position="111">
+              <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seq2seq/Decoder.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seq2seq/Model.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -133,19 +110,34 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/seq2seq/readme.md" />
         <option value="$PROJECT_DIR$/seq2seq/prepare_data.py" />
-        <option value="$PROJECT_DIR$/seq2seq/Decoder.py" />
-        <option value="$PROJECT_DIR$/seq2seq/Model.py" />
         <option value="$PROJECT_DIR$/seq2seq/data.py" />
-        <option value="$PROJECT_DIR$/seq2seq/Configs.py" />
         <option value="$PROJECT_DIR$/seq2seq/Batch.py" />
-        <option value="$PROJECT_DIR$/seq2seq/Data.py" />
-        <option value="$PROJECT_DIR$/seq2seq/Main.py" />
+        <option value="$PROJECT_DIR$/seq2seq/Decoder.py" />
         <option value="$PROJECT_DIR$/seq2seq/Encoder.py" />
+        <option value="$PROJECT_DIR$/seq2seq/Seq2seq.py" />
+        <option value="$PROJECT_DIR$/seq2seq/Utils.py" />
+        <option value="$PROJECT_DIR$/seq2seq/Excuate.py" />
+        <option value="$PROJECT_DIR$/seq2seq/Data.py" />
+        <option value="$PROJECT_DIR$/seq2seq/Get_data.py" />
+        <option value="$PROJECT_DIR$/seq2seq/Configs.py" />
+        <option value="$PROJECT_DIR$/seq2seq/Execute.py" />
+        <option value="$PROJECT_DIR$/seq2seq/Processed_data.py" />
+        <option value="$PROJECT_DIR$/seq2seq/Model.py" />
+        <option value="$PROJECT_DIR$/seq2seq/Main.py" />
+        <option value="$PROJECT_DIR$/seq2seq/readme.md" />
+        <option value="$PROJECT_DIR$/seq2seqAtt/model.py" />
+        <option value="$PROJECT_DIR$/seq2seqAtt/utills.py" />
+        <option value="$PROJECT_DIR$/seq2seqAtt/excute.py" />
+        <option value="$PROJECT_DIR$/seq2seqAtt/main.py" />
+        <option value="$PROJECT_DIR$/seq2seqAtt/get_data.py" />
+        <option value="$PROJECT_DIR$/seq2seqAtt/configs.py" />
       </list>
     </option>
   </component>
@@ -156,16 +148,20 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-73" />
-    <option name="y" value="31" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,11 +174,15 @@
               <item name="NLP_tutorials" type="462c0819:PsiDirectoryNode" />
               <item name="seq2seq" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="NLP_tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NLP_tutorials" type="462c0819:PsiDirectoryNode" />
+              <item name="seq2seqAtt" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,18 +203,87 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Main">
+    <configuration name="Execute" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NLP_tutorials" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seq2seq" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\Learnings\NLP\NLP_tutorials\seq2seq\Data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seq2seq/Execute.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NLP_tutorials" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seq2seq" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seq2seq/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NLP_tutorials" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seq2seq" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seq2seq/Model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Processed_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NLP_tutorials" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seq2seq" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seq2seq/Processed_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -223,8 +292,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NLP_tutorials" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seq2seq" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\Learnings\NLP\NLP_tutorials\seq2seq\Processed_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.data" />
+      <item itemvalue="Python.Processed_data" />
+      <item itemvalue="Python.Execute" />
+      <item itemvalue="Python.Main" />
+      <item itemvalue="Python.Model" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.Model" />
+        <item itemvalue="Python.Execute" />
+        <item itemvalue="Python.Processed_data" />
         <item itemvalue="Python.data" />
       </list>
     </recent_temporary>
@@ -244,29 +346,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18431635" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23123324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" visible="true" weight="0.42776203" />
-      <window_info anchor="bottom" id="Terminal" weight="0.31779662" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.48446327" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5700326" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39522257" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.59391963" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.7037037" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,69 +377,157 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/seq2seq/Decoder.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/seq2seq/Batch.py" />
+    <entry file="file://$PROJECT_DIR$/seq2seq/Encoder.py" />
+    <entry file="file://$PROJECT_DIR$/seq2seq/Seq2seq.py" />
+    <entry file="file://E:/Anaconda3/Lib/site-packages/IPython/core/interactiveshell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="2880" selection-start-line="2880" selection-end-line="2880" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seq2seq/Model.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/seq2seq/Get_data.py" />
+    <entry file="file://E:/Anaconda3/Lib/site-packages/torchtext/datasets/translation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="82" column="16" lean-forward="true" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seq2seq/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="28">
-            <caret line="1" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://E:/Anaconda3/Lib/site-packages/torchtext/data/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda3/Lib/site-packages/torchtext/data/iterator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4116">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda3/Lib/site-packages/torchtext/data/field.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="200" selection-start-line="200" selection-end-line="200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda3/Lib/site-packages/torchtext/data/batch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda3/Lib/site-packages/torch/nn/functional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="761" column="50" lean-forward="true" selection-start-line="761" selection-start-column="50" selection-end-line="761" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda3/Lib/site-packages/torchtext/data/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda3/Lib/site-packages/torch/optim/adam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seq2seq/Utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/seq2seq/Configs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="82" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
-          <folding>
-            <marker date="1564050606801" expanded="true" signature="30:35" ph="..." />
-            <marker date="1564050606801" expanded="true" signature="54:59" ph="..." />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seq2seq/Batch.py">
+    <entry file="file://$PROJECT_DIR$/seq2seq/Model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seq2seq/Data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-          <folding>
-            <element signature="e#2#61#0" expanded="true" />
-            <marker date="1564050979750" expanded="true" signature="245:574" ph="..." />
-          </folding>
+        <state relative-caret-position="914">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/seq2seq/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="980">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seq2seq/Encoder.py">
+    <entry file="file://$PROJECT_DIR$/seq2seq/Execute.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        <state relative-caret-position="1036">
+          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
           <folding>
-            <element signature="e#13#25#0" expanded="true" />
-            <marker date="1564062019337" expanded="true" signature="73:78" ph="..." />
-            <marker date="1564062019337" expanded="true" signature="550:559" ph="..." />
+            <element signature="e#0#20#0" expanded="true" />
+            <marker date="1564231800249" expanded="true" signature="654:659" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seq2seq/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="364">
+            <caret line="13" selection-start-line="13" selection-end-line="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seq2seqAtt/model.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seq2seqAtt/utills.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seq2seqAtt/excute.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seq2seqAtt/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seq2seq/Processed_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seq2seqAtt/configs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seq2seqAtt/get_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
