@@ -23,7 +23,7 @@ def processed_data():
     print(f"Number of validation examples: {len(valid_data.examples)}")
     print(f"Number of testing examples: {len(test_data.examples)}")
     dill.dump(train_data.examples,open('processed_data/train.bin','wb'))
-    dill.dump(valid_data.examples,open('processed_data/valid.bin','wb'))
+    dill.dump(valid_data.examples,open('processed_data/dev.bin','wb'))
     dill.dump(test_data.examples,open('processed_data/test.bin','wb'))
 
     German.build_vocab(train_data, min_freq=2)
@@ -43,7 +43,7 @@ class Multi30k_dataset(Dataset):
 def get_data():
     with open("processed_data/train.bin",'rb') as f:
         train_data_ex = dill.load(f)
-    with open("processed_data/valid.bin",'rb') as f:
+    with open("processed_data/dev.bin",'rb') as f:
         valid_data_ex = dill.load(f)
     with open("processed_data/test.bin",'rb') as f:
         test_data_ex = dill.load(f)
